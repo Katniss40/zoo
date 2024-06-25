@@ -1,3 +1,8 @@
+/*Propriété de la page*/
+body {
+  font-family: cursive, arial, sans-serif;
+}
+ /* Propriété de l'entete de page (header)*/
 header {
     background-image: linear-gradient(to left, #87f4b5, #93cbf1); /* dégradé de couleurs*/
     border-radius: 30px; /* bords arrondis*/
@@ -6,24 +11,24 @@ header {
     font-family: cursive, arial, sans-serif;
 }
 
-/*propriétés du titre principal*/
-h1 {
-    font-size: 40px;
-    text-align: right;
-    color: #333;
-    font-family: cursive, arial, sans-serif;    
+/* Propriete du menu adresse zoo*/
+.adresse {
+  padding: 5px;
+  background-image: linear-gradient(to right, #87f4b5, #93cbf1); /* dégradé de couleurs*/
+  list-style-type: none;   /* Suppression des puces*/
+  border: 1px dashed black;
+  text-align: center;
 }
 
-/* Propriete du texte*/
-p {
-    font-size: 20px;
-    text-align: center;
-    color: #130f0f;
-    font-family: cursive, arial, sans-serif;
+/* Mise en forme du texte header en tableau */
+td{
+  padding: 10px;
+  text-align: center;   
+  column-width: 50rem;
 }
 
-/* Propriete du l'image*/
-img {
+/* Propriété du logo*/
+.logo {
     max-width: 35%;
     height: auto;
     display: block;
@@ -31,6 +36,31 @@ img {
     margin-right: auto;
     width: 50%;
 }
+
+.menu li {
+  list-style-type: none;   /* Suppression des puces*/
+  display: flex;
+}
+
+.menu a {
+  display: block;   /* Transformation en block*/
+  min-width: 120px;   /* Largeur minimale des liens*/;
+  margin: 0.5rem;   /* Marge interne (1 valeurs = 4 directions*/
+  padding: 0.5rem 0;  /* Marge externe (2 valeurs = haut/bas et gauche/droite)*/
+  text-align: center;   /* Centrage du texte*/
+  background-image:linear-gradient(to left,#5edeef,#dce956, #e98fc0);  /* Couleur d'arrière plan*/
+  color: #333;   /* Couleur du texte*/  
+  text-decoration: none;   /* Suppression du soulignement*/
+  border: 1px solid #fff;   /* Bordure de 1px avec couleur blanche*/
+  border-radius: 20px;   /* arrondie des bordures*/
+  transition: all 1s;   /* Animation de transition de 1s*/
+}
+
+/* Changement de couleur au survol*/
+.menu a:hover {
+  background-color: #fc222270;   /* Couleur d'arrière plan*/
+  color: #fc0606;   /* Couleur du texte*/
+} 
 
 .menu {
     border-radius: 30px;
@@ -63,8 +93,53 @@ img {
     color: #fff;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+
+/*Corps de la page*/
+
+main {
+    font-family: cursive, arial, sans-serif;
+    background-color: transparent;
+    background-image: url(images/La savane.png);
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    backgroung-position: center;
+}
+
+/*propriétés du titre principal*/
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #333;
+  font-family: cursive, arial, sans-serif;    
+}
+
+/* Propriete titre secondaire*/
+h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #93cbf1;
+  font-family: cursive, arial, sans-serif;
+  text-decoration: #87f4b5 wavy underline;
+  text-overflow: ellipsis;
+
+}
+
+/* Propriete du texte*/
+p {
+  font-size: 20px;
+  text-align: center;
+  color: #130f0f;
+  font-family: cursive, arial, sans-serif;
+}
+
+/*Propriete des Images*/
+img {
+  max-width: 25%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 form {
