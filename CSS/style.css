@@ -37,7 +37,7 @@ img {
     display: flex;
     padding: 0;
     background-color: aqua;
-    justify-content: ;
+    justify-content: center;
 }
 
 .menu li {
