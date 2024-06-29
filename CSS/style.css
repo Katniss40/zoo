@@ -98,11 +98,11 @@ td{
 
 main {
     font-family: cursive, arial, sans-serif;
-    background-color: transparent;
+    /*background-color: transparent;
     background-image: url(images/La savane.png);
     background-repeat: no-repeat;
     background-attachment: cover;
-    backgroung-position: center;
+    backgroung-position: center;*/
 }
 
 /*propriétés du titre principal*/
